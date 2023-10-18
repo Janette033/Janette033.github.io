@@ -1,0 +1,37 @@
+h1 {
+	text-align: center;
+	font-family: align, sans-serif;
+	color: brown;
+}
+#kiva {
+	background-color: brown;
+}
+body {
+	background-color: #F8E8A9;
+}
+h2 {
+	font-size: 30px;
+}
+p {
+	font-size: 15px;
+}
+<style>
+* {
+	box-sizing: border-box;
+}
+.row {
+	display: flex;
+}
+.column {
+	flex: 33.33;
+	padding: Opx;
+}
+</style>
+li {
+	font-size: 10px;
+}
+#jee {
+	font-size: 13px;
+	background-color: #EBD47A;
+	border: 1px solid green;
+}
