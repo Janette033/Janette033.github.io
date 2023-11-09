@@ -15,7 +15,11 @@
 html { 
 	/*koko sivun tausta on valkoinen.
 	Muuta haluamaksesi*/
-	background: white; 
+	background: #E9B872; 
+	color: #1C1940;
+	font-family: 'Cormorant Garamond', serif;
+	font-family: 'Bubblegum Sans', sans-serif;
+	
 
 	/*Jos määrität html-tagissa fontteja, 
 	taustavärejä tai tekstin värejä,
@@ -57,6 +61,7 @@ header h1 {
 	/*Voit halutessasi myös esim. keskittää otsikon (text-align: center;)*/
 
 	font-size: 20px;
+	background-color: #5ADBFF;
 }
 
 /*--------- MAIN MENU ---------------------*/
@@ -99,8 +104,8 @@ header h1 {
 	
 	/*Tässä määritellään, miltä valikon linkki näyttää, 
 	kun kursori on sen päällä. Muuta paremmaksi */
-	color: red; 
-	background: yellow; 
+	color: black; 
+	background: white; 
 }
 
 /*------- ARTICLE BUTTONS -------------------*/
@@ -134,8 +139,8 @@ header h1 {
 .button:hover { 
 	/*Tässä määritellään, nappi näyttää, 
 	kun kursori on sen päällä. Muuta paremmaksi */
-	color: red; 
-	background: yellow; 
+	color: black; 
+	background: white; 
 	
 	/*Voit halutessasi laittaa vaikka koko 
 	artikkelin muuttumaan jotenkin hiukan, 

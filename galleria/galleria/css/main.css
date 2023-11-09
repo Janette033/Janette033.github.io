@@ -219,7 +219,7 @@ header h1 {
         page-break-after: avoid;
     }
 }
-! TÄHÄN TULEE KAIKKI OMA KOODI !
+/*! TÄHÄN TULEE KAIKKI OMA KOODI !*/
 
 body {
 	display: flex;
