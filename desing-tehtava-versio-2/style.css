@@ -219,7 +219,6 @@ article {
 	margin tai padding).*/
 	
   box-sizing: border-box; 
-  width: calc(33.33%-60px);
   background-color: #5ADBFF;
   color: black;
   border: 1px solid #ddd;
