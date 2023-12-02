@@ -15,6 +15,7 @@ main {
 }
 body {
 	background: #F4E7C5;
+	width: 100%;
 	margin: 0px;
 	padding: 0px;
 }
@@ -106,6 +107,11 @@ h2 {
     color: #EE1C47;
 }
 /* Yleiset asetukset */
+.products {
+	margin-bottom: 30px;
+	
+}
+
 .products .box-container {
   display: flex;
   justify-content: space-between;
@@ -117,6 +123,7 @@ h2 {
   box-shadow: 0 .5rem;
   position: relative;
   flex: 0 0 calc(33.33% - 1.5rem);
+  margin-top: 25px;
 }
 
 .products .box-container .box .discount {
@@ -153,7 +160,8 @@ h2 {
 
 .heading {
   text-align: center;
-  margin-top: 15px;
+  padding-top: 50px;
+  font-size: 42px;
 }
 
 .price {
@@ -171,3 +179,70 @@ h2 {
     margin-bottom: 1.5em;
   }
 }
+.title h1{
+	text-align: center;
+	padding-top: 50px;
+	font-size: 42px;
+	color: white;
+}
+
+.section {
+	background-color: #2c2c2c;
+	margin-top: 25px;
+}
+.palvelut{
+	width: 85%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 75px auto;
+	text-align: center;
+	
+	
+}
+.card {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	margin: 0px 20px;
+	padding: 20px 20px;
+	background-color: white;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.card h2{
+	font-size: 28px;
+	color: black;
+	margin-bottom: 20px;
+}
+.card p{
+	font-size: 17px;
+	margin-bottom: 30px;
+	line-height: 1.5;
+	color: #5e5e5e;
+}
+.button {
+	font-size: 15px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #2c677c;
+	padding: 8px 12px;
+	border-radius: 5px;
+	letter-spacing: 1px;
+}
+.button:hover{
+	background-color: #c94f4f;
+	transition: 0.4s ease;
+}
+@media screen and (max-width: 768px) {
+  .palvelut {
+    display: flex;
+	flex-direction: column;
+  }
+  .card {
+	  width: 85%;
+	  display: felx;
+	  margin: 20px 0px;
+  }
