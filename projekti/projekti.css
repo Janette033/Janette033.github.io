@@ -106,6 +106,67 @@ h2 {
  .container .info a:hover {
     color: #EE1C47;
 }
+ .tietoa-meistä {
+    padding: 80px 0px;
+	background-color: #F4E7C5;
+}
+
+.sisältö {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Lisätty flex-wrap */
+}
+
+.flex {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 20px;
+}
+
+.tietoa-meistä h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.tietoa-meistä h3 {
+    font-size: 22px;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.tietoa-meistä p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+    margin-bottom: 20px;
+}
+.tietoa-meistä img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin:0 auto;
+}
+.btn {
+	font-size: 15px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #2c677c;
+	padding: 8px 12px;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+li {
+	padding: 5px;
+}
 /* Yleiset asetukset */
 .products {
 	margin-bottom: 30px;
@@ -247,8 +308,7 @@ h2 {
 	  margin: 20px 0px;
   }
  
-	 
-	 
+
 	 
  
  
