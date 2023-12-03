@@ -246,3 +246,54 @@ h2 {
 	  display: felx;
 	  margin: 20px 0px;
   }
+ .tietoa-meistä {
+    padding: 80px 0;
+}
+
+.sisältö {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Lisätty flex-wrap */
+}
+
+.flex {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 20px;
+}
+
+.tietoa-meistä h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.tietoa-meistä h3 {
+    font-size: 22px;
+    color: #888;
+    margin-bottom: 8px;
+}
+
+.tietoa-meistä p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 20px;
+}
+.tietoa-meistä img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+	 
+	 
+	 
+ 
+ 
