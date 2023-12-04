@@ -59,8 +59,7 @@ header {
 }
 
 .nav-icon img {
-    margin-right: 20px;
-    transition: all 0.42s ease; 
+    margin-right: 20px; 
 }
 
 @media only screen and (max-width: 768px) {
@@ -87,7 +86,7 @@ img {
 	z-index: 2;
 	
 }
-h2 {
+.box-container h2 {
 	text-align: center;
 	background-color: white;
 }
@@ -141,7 +140,7 @@ h2 {
     padding: 0 20px;
 }
 
-.tietoa-meistä h1 {
+.tietoa-meistä h2 {
     font-size: 45px;
     margin-bottom: 20px;
     color: #333;
@@ -257,7 +256,7 @@ li {
     margin-bottom: 1.5em;
   }
 }
-.title h1{
+.title h2{
 	text-align: center;
 	padding-top: 50px;
 	font-size: 42px;
