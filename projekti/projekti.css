@@ -24,9 +24,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3px 10%;
-	background-color: white;
-	z-index: 1;
+    padding: 10px 5%;
+    background-color: white;
+    z-index: 1;
+    flex-wrap: wrap; /* Uusi lisätty rivi */
 }
 
 .logo img {
@@ -36,8 +37,8 @@ header {
 
 .navmenu {
     display: flex;
-	margin-right: 20px;
-	
+    margin-right: 20px;
+    flex-wrap: wrap; /* Uusi lisätty rivi */
 }
 
 .navmenu a {
@@ -46,15 +47,18 @@ header {
     text-transform: capitalize;
     padding: 10px 20px;
     font-weight: 400;
-    transition: all 0.42s ease; 
+    transition: all 0.42s ease;
 }
+
 .navmenu a:hover {
     color: #EE1C47;
 }
+
 .nav-icon {
     display: flex;
     align-items: center;
-	margin-left: 100px;
+    margin-left: auto; /* Muutettu rivi */
+    margin-right: 20px; /* Uusi lisätty rivi */
 }
 
 .nav-icon img {
@@ -163,6 +167,10 @@ h2 {
 	margin-top: 10px;
 	display: inline-block;
 	margin-bottom: 25px;
+}
+.btn:hover{
+	background-color: #c94f4f;
+	transition: 0.4s ease;
 }
 li {
 	padding: 5px;
@@ -297,6 +305,12 @@ li {
 	background-color: #c94f4f;
 	transition: 0.4s ease;
 }
+footer {
+	text-align: center;
+	color: white;
+	padding: 15px;
+}
+
 @media screen and (max-width: 768px) {
   .palvelut {
     display: flex;
