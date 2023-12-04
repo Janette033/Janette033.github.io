@@ -27,18 +27,19 @@ header {
     padding: 10px 5%;
     background-color: white;
     z-index: 1;
-    flex-wrap: wrap; /* Uusi lisätty rivi */
+    flex-wrap: wrap;
 }
 
 .logo img {
     max-width: 180px;
     height: auto;
+    margin-right: 20px; /* Etäisyys logon ja navmenun välillä leveällä näytössä */
 }
 
 .navmenu {
     display: flex;
-    margin-right: 20px;
-    flex-wrap: wrap; /* Uusi lisätty rivi */
+    align-items: center;
+    margin-right: auto; /* Siirtää navmenun oikeaan reunaan leveällä näytössä */
 }
 
 .navmenu a {
@@ -57,10 +58,22 @@ header {
 .nav-icon {
     display: flex;
     align-items: center;
-    margin-left: auto; /* Muutettu rivi */
-    margin-right: 20px; /* Uusi lisätty rivi */
+    margin-left: 20px; /* Etäisyys navmenun ja naviconien välillä leveällä näytössä */
 }
 
+/* Media query kapeille näytöille */
+@media (max-width: 767px) {
+    .navmenu {
+        flex-direction: column; /* Aseta navmenu pystysuoraan kapealla näytöllä */
+        align-items: flex-start; /* Siirrä navmenu vasempaan reunaan kapealla näytöllä */
+        margin-right: 0; /* Poista oikean reunan marginaatti kapealla näytöllä */
+    }
+
+    .nav-icon {
+        margin-left: 0; /* Poista vasemman reunan marginaatti kapealla näytöllä */
+        margin-top: 10px; /* Lisää etäisyyttä naviconien ja navmenun välillä kapealla näytöllä */
+    }
+}
 .nav-icon img {
     margin-right: 20px;
     transition: all 0.42s ease;	
