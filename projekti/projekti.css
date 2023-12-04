@@ -71,6 +71,7 @@ header {
 
     .navmenu {
         margin: 20px 0;
+		margin-right: 30px;
     }
 
     .nav-icon {
@@ -78,7 +79,6 @@ header {
         justify-content: center;
     }
 }
-
 img {
     max-width: 100%;
     height: auto;
