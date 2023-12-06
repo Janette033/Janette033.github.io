@@ -1,0 +1,14 @@
+body {
+	background-color: #F4E7C5 !important;
+}
+.col-md-4 {
+	padding: 15px !important;
+	margin-top: 20px !important;
+}
+.btn {
+	box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.2) !important;
+	background-color: pink !important;
+}
+osio3 {
+	background: pink !important;
+}
